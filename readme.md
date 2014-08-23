@@ -11,7 +11,11 @@ This:
 ```
 becomes:
 
-![screenshot](screenshot.png)
+![screenshot](screenshot-1.png)
+
+---
+
+With the nature of code in the content editor, relatively simple snippets recommended. Also, it's not smart enough to detect a minor change and update for you - any changes to the shortcode contents (except for whitespace) will cause a new gist to be created.
 
 ---
 
@@ -19,13 +23,13 @@ becomes:
 
 You'll need to register an application on Github and enter your client information General Settings
 
-![general-settings](general-settings.png)
+![general-settings](screenshot-2.png)
 
 
 ## Second, authorize your user
 
 Go to your profile and authorize. 
 
-![authorize](authorize.png)
+![authorize](screenshot-3.png)
 
 Now, when you author a post, any `[gist]`s will be associated with your github/gist acount.
